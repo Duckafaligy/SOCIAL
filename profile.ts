@@ -2,7 +2,7 @@
 
 export const profile = {
   name: "Brendan Lau",
-  tagline: "Developer · Builder · Always learning",
+  tagline: "Ongoing Entrepreneur • Developer",
   // Profile photo in /public, cropped square.
   photo: "/avatar.jpg",
 };
