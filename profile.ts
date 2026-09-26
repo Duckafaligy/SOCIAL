@@ -2,7 +2,7 @@
 
 export const profile = {
   name: "Brendan Lau",
-  tagline: "Developer",
+  tagline: "15 year old • Pierre Elliott Trudeau H.S. • Developer",
   // Profile photo in /public, cropped square.
   photo: "/avatar.jpg",
 };
