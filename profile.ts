@@ -3,8 +3,8 @@
 export const profile = {
   name: "Brendan Lau",
   tagline: "Developer · Builder · Always learning",
-  // Initials shown in the avatar circle.
-  initials: "BL",
+  // Profile photo in /public, cropped square.
+  photo: "/avatar.jpg",
 };
 
 export type LinkKind = "phone" | "instagram" | "linkedin" | "github" | "gmail";
@@ -21,7 +21,7 @@ export const links: SocialLink[] = [
   {
     kind: "phone",
     label: "Phone",
-    display: "647-618-7233 · Tap to save contact",
+    display: "647-618-7233 · Save contact",
     href: "/brendan-lau.vcf",
   },
   {

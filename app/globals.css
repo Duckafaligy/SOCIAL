@@ -56,15 +56,12 @@ body {
 }
 
 .avatar {
-  width: 76px;
-  height: 76px;
+  width: 96px;
+  height: 96px;
   margin: 0 auto 18px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  display: block;
+  object-fit: cover;
   background: var(--card);
   border: 1px solid var(--border);
 }
