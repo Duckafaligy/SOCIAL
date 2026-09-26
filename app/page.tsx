@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { links, profile } from "@/profile";
 import { Arrow, Icon } from "./icons";
 
@@ -5,9 +6,14 @@ export default function Home() {
   return (
     <main className="page">
       <header className="intro">
-        <div className="avatar" aria-hidden="true">
-          {profile.initials}
-        </div>
+        <Image
+          className="avatar"
+          src={profile.photo}
+          alt={profile.name}
+          width={152}
+          height={152}
+          priority
+        />
         <h1>{profile.name}</h1>
         <p>{profile.tagline}</p>
       </header>
