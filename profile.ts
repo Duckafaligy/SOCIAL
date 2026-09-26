@@ -1,10 +1,10 @@
 // Edit this file to update everything shown on the site.
 
 export const profile = {
-  name: "Your Name",
+  name: "Brendan Lau",
   tagline: "Developer · Builder · Always learning",
   // Initials shown in the avatar circle.
-  initials: "YN",
+  initials: "BL",
 };
 
 export type LinkKind = "phone" | "instagram" | "linkedin" | "github" | "gmail";
@@ -21,31 +21,31 @@ export const links: SocialLink[] = [
   {
     kind: "phone",
     label: "Phone",
-    display: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    display: "+1 (647) 618-7233",
+    href: "tel:+16476187233",
   },
   {
     kind: "instagram",
     label: "Instagram",
-    display: "@yourhandle",
-    href: "https://instagram.com/yourhandle",
+    display: "@duckafaligy",
+    href: "https://www.instagram.com/duckafaligy",
   },
   {
     kind: "linkedin",
     label: "LinkedIn",
-    display: "in/yourname",
-    href: "https://www.linkedin.com/in/yourname",
+    display: "in/brendan-lau-4654b43a0",
+    href: "https://www.linkedin.com/in/brendan-lau-4654b43a0",
   },
   {
     kind: "github",
     label: "GitHub",
-    display: "@duckafaligy",
-    href: "https://github.com/duckafaligy",
+    display: "@Duckafaligy",
+    href: "https://github.com/Duckafaligy",
   },
   {
     kind: "gmail",
     label: "Gmail",
-    display: "you@gmail.com",
-    href: "mailto:you@gmail.com",
+    display: "brendanhllau@gmail.com",
+    href: "mailto:brendanhllau@gmail.com",
   },
 ];
