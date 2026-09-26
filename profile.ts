@@ -27,7 +27,7 @@ export const links: SocialLink[] = [
   {
     kind: "instagram",
     label: "Instagram",
-    display: "@duckafaligy",
+    display: "@Duckafaligy",
     href: "https://www.instagram.com/duckafaligy",
   },
   {
