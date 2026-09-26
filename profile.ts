@@ -22,7 +22,7 @@ export const links: SocialLink[] = [
     kind: "phone",
     label: "Phone",
     display: "+1 (647) 618-7233",
-    href: "tel:+16476187233",
+    href: "/brendan-lau.vcf",
   },
   {
     kind: "instagram",
@@ -33,7 +33,7 @@ export const links: SocialLink[] = [
   {
     kind: "linkedin",
     label: "LinkedIn",
-    display: "in/brendan-lau-4654b43a0",
+    display: "Brendan Lau",
     href: "https://www.linkedin.com/in/brendan-lau-4654b43a0",
   },
   {
