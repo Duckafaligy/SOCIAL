@@ -21,7 +21,7 @@ export const links: SocialLink[] = [
   {
     kind: "phone",
     label: "Phone",
-    display: "+1 (647) 618-7233",
+    display: "647-618-7233 · Tap to save contact",
     href: "/brendan-lau.vcf",
   },
   {
